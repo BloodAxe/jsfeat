@@ -4,7 +4,7 @@
 
 // namespace ?
 var jsfeat = jsfeat || { REVISION: 'ALPHA' };
-/**
+;/**
  * @author Eugene Zatepyakin / http://inspirit.ru/
  */
 
@@ -74,7 +74,7 @@ var jsfeat = jsfeat || { REVISION: 'ALPHA' };
             this.u8 = new Uint8Array(this.buffer);
             this.i32 = new Int32Array(this.buffer);
             this.f32 = new Float32Array(this.buffer);
-            this.f64 = new Float64Array(this.buffer);
+            //this.f64 = new Float64Array(this.buffer);
         }
         return data_t;
     })();
@@ -236,7 +236,7 @@ var jsfeat = jsfeat || { REVISION: 'ALPHA' };
     global.keypoint_t = keypoint_t;
 
 })(jsfeat);
-/**
+;/**
  * @author Eugene Zatepyakin / http://inspirit.ru/
  */
 
@@ -315,7 +315,7 @@ var jsfeat = jsfeat || { REVISION: 'ALPHA' };
     cache.allocate(30, 640*4);
 
 })(jsfeat);
-/**
+;/**
  * @author Eugene Zatepyakin / http://inspirit.ru/
  */
 
@@ -729,7 +729,7 @@ var jsfeat = jsfeat || { REVISION: 'ALPHA' };
     global.math = math;
 
 })(jsfeat);
-/**
+;/**
  * @author Eugene Zatepyakin / http://inspirit.ru/
  *
  */
@@ -961,8 +961,7 @@ var jsfeat = jsfeat || { REVISION: 'ALPHA' };
 
     global.matmath = matmath;
 
-})(jsfeat);
-/**
+})(jsfeat);;/**
  * @author Eugene Zatepyakin / http://inspirit.ru/
  *
  */
@@ -1649,8 +1648,7 @@ var jsfeat = jsfeat || { REVISION: 'ALPHA' };
 
     global.linalg = linalg;
 
-})(jsfeat);
-/**
+})(jsfeat);;/**
  * @author Eugene Zatepyakin / http://inspirit.ru/
  *
  */
@@ -2310,7 +2308,7 @@ var jsfeat = jsfeat || { REVISION: 'ALPHA' };
     global.motion_estimator = motion_estimator;
 
 })(jsfeat);
-/**
+;/**
  * @author Eugene Zatepyakin / http://inspirit.ru/
  */
 
@@ -3491,7 +3489,7 @@ var jsfeat = jsfeat || { REVISION: 'ALPHA' };
     global.imgproc = imgproc;
 
 })(jsfeat);
-/**
+;/**
  * @author Eugene Zatepyakin / http://inspirit.ru/
  *
  * This is FAST corner detector, contributed to OpenCV by the author, Edward Rosten.
@@ -3745,7 +3743,7 @@ The references are:
     fast_corners.set_threshold(20); // set default
 
 })(jsfeat);
-/**
+;/**
  * @author Eugene Zatepyakin / http://inspirit.ru/
  *
  * Copyright 2007 Computer Vision Lab,
@@ -3845,7 +3843,7 @@ The references are:
     global.yape06 = yape06;
 
 })(jsfeat);
-/**
+;/**
  * @author Eugene Zatepyakin / http://inspirit.ru/
  *
  * Copyright 2007 Computer Vision Lab,
@@ -4254,8 +4252,7 @@ The references are:
 
     global.yape = yape;
 
-})(jsfeat);
-/**
+})(jsfeat);;/**
  * @author Eugene Zatepyakin / http://inspirit.ru/
  *
  * Original implementation derived from OpenCV,
@@ -4619,7 +4616,7 @@ The references are:
     global.orb = orb;
 
 })(jsfeat);
-/**
+;/**
  * @author Eugene Zatepyakin / http://inspirit.ru/
  *
  * this code is a rewrite from OpenCV's Lucas-Kanade optical flow implementation
@@ -4865,7 +4862,7 @@ The references are:
     global.optical_flow_lk = optical_flow_lk;
 
 })(jsfeat);
-/**
+;/**
  * @author Eugene Zatepyakin / http://inspirit.ru/
  *
  * this code is a rewrite from https://github.com/mtschirs/js-objectdetect implementation
@@ -5155,7 +5152,7 @@ The references are:
     global.haar = haar;
 
 })(jsfeat);
-/**
+;/**
  * BBF: Brightness Binary Feature
  *
  * @author Eugene Zatepyakin / http://inspirit.ru/
@@ -5549,7 +5546,7 @@ The references are:
     global.bbf = bbf;
 
 })(jsfeat);
-/**
+;/**
  * @author Eugene Zatepyakin / http://inspirit.ru/
  */
 

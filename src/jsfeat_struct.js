@@ -68,7 +68,7 @@
             this.u8 = new Uint8Array(this.buffer);
             this.i32 = new Int32Array(this.buffer);
             this.f32 = new Float32Array(this.buffer);
-            this.f64 = new Float64Array(this.buffer);
+            //this.f64 = new Float64Array(this.buffer);
         }
         return data_t;
     })();
